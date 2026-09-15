@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Resume</title>
+    <meta name="description" content="A starting point for Learning HTML 5">
+    <meta name="keywords" content="HTML5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/tep3cyv.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fvk0zxr.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="main-nav">
+    <div class="nav-inner">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="bio.html">Bio</a></li>
+        </ul>
+    </div>
+</nav>
+
+<img class="hero-image" src="images/austin-chan-ukzHlkoz1IE-unsplash.jpg" alt="Neon sign reading &quot;This is the sign you've been looking for&quot; on a brick wall above a shelf of pillows and skateboards">
+
+<main class="container">
+
+    <h1>Home</h1>
+    <h2>Welcome to my corner of the web</h2>
+    <p>This site is a work-in-progress portfolio built while learning HTML &amp; CSS. Use the nav above to check out the About, Bio, and Contact pages -- each one demonstrates a different piece of the toolkit: semantic markup, an image gallery, and a real contact form.</p>
+
+    <h2>Recent shots</h2>
+    <p>A few frames from a recent trip to Yellowstone -- geysers, wildlife, and canyon views.</p>
+    <div class="gallery">
+        <figure>
+            <img src="images/A37I8206-web.jpg" alt="Grand Prismatic Spring, its blue center ringed by bands of orange and yellow mineral deposits, with steam rising over the boardwalk" loading="lazy">
+            <figcaption>Grand Prismatic Spring</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8667-web.jpg" alt="The Lower Falls of the Yellowstone River plunging into the steep, layered walls of the Grand Canyon of the Yellowstone" loading="lazy">
+            <figcaption>Lower Falls, Yellowstone Canyon</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8116-web.jpg" alt="Steam rising over a geyser basin thermal pool, with a fallen bleached tree in the foreground and visitors watching in the distance" loading="lazy">
+            <figcaption>Midway Geyser Basin</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8317-web.jpg" alt="A bull elk with large antlers resting on a grassy, sagebrush-dotted hillside" loading="lazy">
+            <figcaption>Bull elk, Lamar Valley</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8287-web.jpg" alt="Close-up of a hot spring's edge where deep turquoise water meets a crust of white mineral deposits" loading="lazy">
+            <figcaption>Hot spring detail</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8291-web.jpg" alt="Close-up of steaming blue hot spring water fading into orange and white mineral banks" loading="lazy">
+            <figcaption>Hot spring detail</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8656-web.jpg" alt="The Yellowstone River rushing through a steep canyon lined with pine trees" loading="lazy">
+            <figcaption>Yellowstone River</figcaption>
+        </figure>
+        <figure>
+            <img src="images/A37I8572-web.jpg" alt="Rolling sagebrush-covered hills under a partly cloudy blue sky" loading="lazy">
+            <figcaption>Lamar Valley</figcaption>
+        </figure>
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Your Name. Built as a learning project.</p>
+</footer>
+
+<!-- Lightbox (populated by js/main.js when a gallery image is activated) -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">&#10094;</button>
+    <img class="lightbox-image" src="" alt="">
+    <button class="lightbox-next" aria-label="Next image">&#10095;</button>
+    <p class="lightbox-caption"></p>
+</div>
+
+<!-- Javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Resume</title>
+    <meta name="description" content="A starting point for Learning HTML 5">
+    <meta name="keywords" content="HTML5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/tep3cyv.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fvk0zxr.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="main-nav">
+    <div class="nav-inner">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="bio.html">Bio</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container">
+
+    <h1>About</h1>
+    <h2>What this site is</h2>
+    <p>This is a small practice site built to learn the fundamentals of HTML and CSS -- semantic structure, a responsive nav, an image gallery, and a working contact form. Every page shares the same nav and footer, styled from one shared stylesheet (<code>css/style.css</code>).</p>
+
+    <figure>
+        <img src="images/clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="Neon sign reading 'DO SOMETHING GREAT' against a dark background">
+        <figcaption>Photo by Clark Tibbs</figcaption>
+    </figure>
+
+    <h2>What's inside</h2>
+    <ul>
+        <li>Semantic HTML5 elements (<code>nav</code>, <code>main</code>, <code>footer</code>, <code>figure</code>)</li>
+        <li>A mobile nav toggle powered by a few lines of JavaScript</li>
+        <li>An accessible contact form with labelled fields</li>
+        <li>A responsive image gallery built with CSS Grid</li>
+    </ul>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Your Name. Built as a learning project.</p>
+</footer>
+
+<!-- Javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

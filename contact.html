@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Resume</title>
+    <meta name="description" content="A starting point for Learning HTML 5">
+    <meta name="keywords" content="HTML5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/tep3cyv.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fvk0zxr.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="main-nav">
+    <div class="nav-inner">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="bio.html">Bio</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container">
+
+    <h1>Contact</h1>
+    <h2>Get in touch</h2>
+    <p>Fill out the form below, or reach out directly using the details underneath it.</p>
+
+    <form class="contact-form" action="#" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+    </form>
+
+    <h2>Other ways to reach me</h2>
+    <ul class="contact-info">
+        <li>Email: <a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener">@yourhandle</a></li>
+    </ul>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Your Name. Built as a learning project.</p>
+</footer>
+
+<!-- Javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>
